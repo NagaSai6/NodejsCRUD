@@ -4,7 +4,7 @@ const bodyParser= require("body-parser")
 const ejs = require("ejs");
 const mongoose = require("mongoose")
 const app = express()
-const PORT = 3000 || process.env.PORT
+
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -33,6 +33,6 @@ require("./Routes/web.js")(app)
 
 
 
-app.listen(PORT,function(req,res){
+app.listen(process.env.PORT||3000,function(req,res){
     console.log("Server is running");
 })
