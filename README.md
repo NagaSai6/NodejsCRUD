@@ -1,6 +1,6 @@
 # NodejsCRUD
 
-Node js express app with mongoDB linked
+Node js express app with mongoDB Database
 
 CREATE READ UPDATE DELETE 
 
