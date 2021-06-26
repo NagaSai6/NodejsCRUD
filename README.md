@@ -6,4 +6,4 @@ CREATE READ UPDATE DELETE
 
 ## deployed on heroku
 
-<a href="https://nodetask2.herokuapp.com/" >Deployed app found here </a>
+<a target="_blank" href="https://nodetask2.herokuapp.com/" >Deployed app found here </a>
